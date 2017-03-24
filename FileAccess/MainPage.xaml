@@ -1,19 +1,16 @@
 ﻿<Page
-    x:Class="FolderEnumeration.MainPage"
+    x:Class="FileAccess.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:FolderEnumeration"
+    xmlns:local="using:FileAccess"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel>
-            <Button Click="Button_Click" Content="Enum" />
-            <Button Click="Button_Click2" Content="EnumItem" />
-            <Button Click="Button_Click3" Content="EnumQuery" />
-            <TextBlock Name="MyText" Text="Content" />
-            <TextBlock Name="MyText2" Text="Content2" />
+            <Button Click="Button_Click" Content="Create_File"/>
+            <Button Click="Button_Click2" Content="Write_File"/>
         </StackPanel>
     </Grid>
 </Page>
